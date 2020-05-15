@@ -1,0 +1,23 @@
+{
+  "name": "desafio-venturus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env node src/index.js",
+    "test": "env-cmd -f ./config/test.env jest --watchAll --runInBand --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^4.2.0",
+    "supertest": "^4.0.2"
+  }
+}
