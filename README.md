@@ -1,4 +1,4 @@
-# challenge-venturus
+# IT STORE API
 Rest API - SQlite3
 
 #How To
